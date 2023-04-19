@@ -1,0 +1,104 @@
+*{
+  box-sizing: border-box;
+  font-family: "Rubik Distressed", cursive;
+}
+html, body{
+  margin: 0%;
+  padding: 0%;
+}
+/* nav design*/
+.nav ul{
+  margin: 0%;
+}
+.nav li{
+  display: inline;
+}
+.nav a{
+  display: inline-block;
+  padding: 2.5em;
+  color: white;
+  text-decoration: none;
+}
+.main-nav{
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: bolder;
+  border-bottom: 5px solid #777;
+}
+.nav a:hover{
+  background-color: #777;
+}
+/* header */
+.main-header{
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 775px;
+  background-image: url(images/background.jpg);
+  max-width: 100%;
+  background-position: center;
+}
+.main-header img{max-width: 100%;}
+/* Artists name design and font stuff */
+.artist-name{
+  text-align: center;
+  margin: 0;
+  font-size: 5em;
+  font-weight: bold;
+  color: #333;
+}
+.artist-name-large{
+  font-size: 8em;
+}
+/* The text design (about the artist) */
+.container-section{
+  margin: 1em;
+}
+.container{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+/* about chief keef */
+.section-header{
+  font-weight: normal;
+  color: #40929F;
+  text-align: center;
+  font-size: 2.5em;
+}
+.container-section p{
+  font-size: 1.5em;
+}
+/* images format  within paragraph */
+.about-artist-images{
+  float: left;
+  height: 200px;
+  margin: 15px;
+  border-radius: 20%;
+}
+/* social images */
+.social{
+  float: left;
+  height: 25px;
+  margin: 10px;
+  border-radius: 20%;
+}
+/*footer content */
+.main-footer {
+  background-color:#3A5256;
+  color: white;
+  padding: 0.25em 0;
+}
+.main-footer-container{
+  display: flex;
+  align-items: center;
+}
+.main-footer-container ul{
+  flex-grow: 1;
+  text-align: end;
+}
+.footer-nav li{
+  padding: 0 0.5em;
+}
+triibute-link a:hover{
+  color: #40929F;
+}
